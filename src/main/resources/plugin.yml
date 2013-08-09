@@ -1,0 +1,5 @@
+name: ${project.name}
+main: net.daboross.bukkitdev.logouttimer.LogoutTimerPlugin
+version: ${project.version}
+author: Dabo Ross
+description: Logout timer
