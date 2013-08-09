@@ -1,0 +1,4 @@
+PluginRequest-LogoutTimer
+=========================
+
+Logout timer
