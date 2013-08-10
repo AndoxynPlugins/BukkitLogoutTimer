@@ -1,0 +1,4 @@
+# Time allowed in minutes.
+time-allowed: 15
+# Spawn location's world.
+spawn-world: world
