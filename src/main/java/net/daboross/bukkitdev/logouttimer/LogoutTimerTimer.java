@@ -26,6 +26,6 @@ public class LogoutTimerTimer extends BukkitRunnable {
     }
 
     public static void newTimer(String username, LogoutTimerPlugin plugin) {
-        new LogoutTimerTimer(plugin, username).runTaskLater(plugin, plugin.getConfig().getInt("time-allowed"));
+        new LogoutTimerTimer(plugin, username).runTaskLater(plugin, 120 * plugin.getConfig().getInt("time-allowed"));
     }
 }
